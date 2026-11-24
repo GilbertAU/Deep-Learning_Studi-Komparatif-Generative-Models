@@ -1,0 +1,8 @@
+{
+  "mlp_val_acc": 89.34,
+  "mlp_test_acc": 89.47,
+  "vanilla_ae_sparsity_pct": 0.05,
+  "vanilla_ae_mean_abs_z": 1.2545,
+  "sparse_ae_sparsity_pct": 34.35,
+  "sparse_ae_mean_abs_h": 0.5497
+}

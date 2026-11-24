@@ -1,0 +1,7 @@
+Arsitektur Model,Dim Laten,Training Time / Epoch (s),Latency (ms / batch 64),Test MSE,Test PSNR (dB),Test SSIM,FID Score,Kestabilan Training
+Vanilla Autoencoder,64,6.44,0.3,0.00704,22.62,0.8163,N/A (Latent Voids),Stabil / Konvergen
+Sparse Autoencoder,64 (Sparse L1),6.61,0.17,0.00868,21.61,0.7811,N/A (Latent Voids),Stabil / Konvergen
+Variational Autoencoder (VAE),64,6.79,0.17,0.01378,19.43,0.6993,111.93,Stabil / Konvergen
+Generative Adversarial Network (Vanilla GAN),100 (Prior Noise),7.75,0.31,N/A (Tanpa Encoder),N/A,N/A,196.94,Sangat Rentan Osilasi / Mode Collapse
+Deep Convolutional GAN (DCGAN),100 (Prior Noise),13.44,1.21,N/A (Tanpa Encoder),N/A,N/A,47.45,Cukup Stabil (Sensitif Arsitektur)
+Denoising Diffusion Probabilistic Models (DDPM),28x28 (Dimensi Citra),23.75,2328.53,N/A (Denoising Model),N/A,N/A,60.83,Sangat Stabil
